@@ -61,3 +61,8 @@ for (i = 0; i < keyframes.length; i++) {
     value = content[i];
   }
 }
+
+// looping user custom properties
+set keyframes;
+
+valueAtTime(time % key(numKeys).time)
